@@ -10,37 +10,25 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Home extends AppCompatActivity {
+public class Verification extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.activity_verification);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
-    public void onClick (View v){
-        Intent intent = new Intent(this, Popular.class);
+    public void Back (View v) {
+        Intent intent = new Intent(this, Password.class);
         startActivity(intent);
     }
-    public void onClick2 (View v){
-        Intent intent = new Intent(this, Outdoor.class);
-        startActivity(intent);
-    }
-    public void onClick3 (View v){
-        Intent intent = new Intent(this, MyCart.class);
-        startActivity(intent);
-    }
-    public void foramina(View v){
-        Intent intent = new Intent(this, MyCart.class);
-        startActivity(intent);
-    }
-    public void subrange(View v){
-        Intent intent = new Intent(this, Favorite.class);
+    public void onClick (View v) {
+        Intent intent = new Intent(this, SignIn.class);
         startActivity(intent);
     }
 }

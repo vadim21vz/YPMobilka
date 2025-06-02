@@ -34,4 +34,13 @@ public class SignIn extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Register (View v) {
+        Intent intent = new Intent(this, Register.class);
+        startActivity(intent);
+    }
+
+    public void Password (View v) {
+        Intent intent = new Intent(this, Password.class);
+        startActivity(intent);
+    }
 }

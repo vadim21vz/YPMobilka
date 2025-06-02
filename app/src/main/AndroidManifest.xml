@@ -34,6 +34,33 @@
             android:name=".Onboard1"
             android:exported="false" />
         <activity
+            android:name=".Checkout2"
+            android:exported="false" />
+        <activity
+            android:name=".Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".Password2"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".Password"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".DetailOrder"
+            android:exported="false" />
+        <activity
+            android:name=".MyCart"
+            android:exported="false" />
+        <activity
+            android:name=".Favorite"
+            android:exported="false" />
+        <activity
             android:name=".Splash"
             android:exported="true">
             <intent-filter>
