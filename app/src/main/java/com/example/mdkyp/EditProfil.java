@@ -10,13 +10,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Favorite extends AppCompatActivity {
+public class EditProfil extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_favorite);
+        setContentView(R.layout.activity_edit_profil);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -24,26 +24,15 @@ public class Favorite extends AppCompatActivity {
         });
     }
     public void back(View v){
-        Intent intent = new Intent(this, Home.class);
+        Intent intent = new Intent(this, Menu.class);
         startActivity(intent);
     }
-
-    public void home(View v){
-        Intent intent = new Intent(this, Home.class);
+    public void save(View v){
+        Intent intent = new Intent(this, Menu.class);
         startActivity(intent);
     }
-    public void foramina(View v){
-        Intent intent = new Intent(this, MyCart.class);
+    public void vost(View v){
+        Intent intent = new Intent(this, Password.class);
         startActivity(intent);
     }
-    public void profile(View v){
-        Intent intent = new Intent(this, Profile.class);
-        startActivity(intent);
-    }
-    public void notification(View v){
-        Intent intent = new Intent(this, Notification.class);
-        startActivity(intent);
-    }
-
-
 }

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48B2E7"
+    tools:context=".Menu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="156dp"
+            android:layout_height="767dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="152dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView89"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/home3" />
+
+        <ImageView
+            android:id="@+id/imageView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="70dp"
+            android:onClick="editProfil"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lico2" />
+
+        <ImageView
+            android:id="@+id/imageView90"
+            android:layout_width="271dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="76dp"
+            android:onClick="profil"
+            app:layout_constraintEnd_toStartOf="@+id/imageView63"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView89"
+            app:srcCompat="@drawable/profil" />
+
+        <ImageView
+            android:id="@+id/imageView91"
+            android:layout_width="268dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="59dp"
+            android:onClick="foramina"
+            app:layout_constraintEnd_toStartOf="@+id/imageView63"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView90"
+            app:srcCompat="@drawable/korzina" />
+
+        <ImageView
+            android:id="@+id/imageView92"
+            android:layout_width="272dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="57dp"
+            android:onClick="subrange"
+            app:layout_constraintEnd_toStartOf="@+id/imageView63"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView91"
+            app:srcCompat="@drawable/izbranoe" />
+
+        <ImageView
+            android:id="@+id/imageView93"
+            android:layout_width="275dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="58dp"
+            android:onClick="okay"
+            app:layout_constraintEnd_toStartOf="@+id/imageView63"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView92"
+            app:srcCompat="@drawable/zakazy" />
+
+        <ImageView
+            android:id="@+id/imageView94"
+            android:layout_width="273dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="103dp"
+            android:onClick="yvedy"
+            app:layout_constraintEnd_toStartOf="@+id/imageView63"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView93"
+            app:srcCompat="@drawable/yvedomleniya" />
+
+        <ImageView
+            android:id="@+id/imageView95"
+            android:layout_width="277dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="104dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView63"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView94"
+            app:srcCompat="@drawable/nastroiki" />
+
+        <ImageView
+            android:id="@+id/imageView96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="101dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView95"
+            app:srcCompat="@drawable/liniya" />
+
+        <ImageView
+            android:id="@+id/imageView97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="105dp"
+            android:onClick="vyhod"
+            app:layout_constraintEnd_toStartOf="@+id/imageView63"
+            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView96"
+            app:srcCompat="@drawable/vyhod" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

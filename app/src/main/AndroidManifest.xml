@@ -61,6 +61,21 @@
             android:name=".Favorite"
             android:exported="false" />
         <activity
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfil"
+            android:exported="false" />
+        <activity
+            android:name=".Orders"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false"/>
+        <activity
             android:name=".Splash"
             android:exported="true">
             <intent-filter>

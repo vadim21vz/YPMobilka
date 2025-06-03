@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="334dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText"
+            app:srcCompat="@drawable/email" />
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="297dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView59"
+            app:srcCompat="@drawable/name" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="37dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="XXXXXXXX"
+            android:inputType="text"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView62" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="337dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="37dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="xyz@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textColor="#9E9E9E"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView60" />
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="315dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+            app:srcCompat="@drawable/password" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="336dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="37dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="**********"
+            android:inputType="textPassword"
+            android:textColor="#9E9E9E"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView61" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="340dp"
+            android:onClick="Back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imageView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="416dp"
+            android:layout_marginEnd="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextPassword2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/eyesignin" />
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView58"
+            app:srcCompat="@drawable/registration" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="147dp"
+            android:text="Даю согласие на обработку \n персональных данных"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.668"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+        <ImageView
+            android:id="@+id/imageView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="38dp"
+            android:onClick="BackOnVhod"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox"
+            app:srcCompat="@drawable/buttonreg" />
+
+        <ImageView
+            android:id="@+id/imageView65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="129dp"
+            android:onClick="BackOnVhod"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView64"
+            app:srcCompat="@drawable/vhod" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

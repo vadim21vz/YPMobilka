@@ -11,7 +11,7 @@
         android:id="@+id/linearLayout3"
         android:layout_width="403dp"
         android:layout_height="57dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,7 +98,6 @@
                 app:srcCompat="@drawable/frame4" />
         </LinearLayout>
     </ScrollView>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
         android:layout_width="match_parent"
@@ -111,11 +110,11 @@
         <ImageView
             android:id="@+id/imageView114"
             android:layout_width="410dp"
-            android:layout_height="129dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="-15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.52"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/barbar" />
 
@@ -163,6 +162,7 @@
             android:layout_marginStart="350dp"
             android:layout_marginEnd="29dp"
             android:layout_marginBottom="28dp"
+            android:onClick="profile"
             app:layout_constraintBottom_toBottomOf="@+id/imageView114"
             app:layout_constraintEnd_toEndOf="@+id/imageView114"
             app:layout_constraintStart_toStartOf="@+id/imageView114"
