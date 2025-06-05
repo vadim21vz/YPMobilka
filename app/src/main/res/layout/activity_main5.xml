@@ -11,7 +11,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:onClick="details">
 
         <ImageView
             android:id="@+id/imageView86"
@@ -54,9 +55,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="35dp"
-            android:layout_marginTop="26dp"
+            android:layout_marginTop="28dp"
             android:layout_marginEnd="33dp"
+            android:onClick="search2"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView85"
             app:srcCompat="@drawable/group_home2" />
@@ -154,6 +157,7 @@
             android:layout_marginStart="38dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="38dp"
+            android:onClick="details"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView38"

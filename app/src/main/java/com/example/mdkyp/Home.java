@@ -65,4 +65,12 @@ public class Home extends AppCompatActivity {
         Intent intent = new Intent(this, Orders.class);
         startActivity(intent);
     }
+    public void details(View v){
+        Intent intent = new Intent(this, Details2.class);
+        startActivity(intent);
+    }
+    public void search2(View v){
+        Intent intent = new Intent(this, Search2.class);
+        startActivity(intent);
+    }
 }
